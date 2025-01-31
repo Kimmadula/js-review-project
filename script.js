@@ -46,7 +46,7 @@ function editTodo(index) {
 //Function to delete a todo
 function deleteTodo(index) {
     if (confirm('Are you sure you want to delete this todo?')) {
-        todos,splice(index, 1);
+        todos.splice(index, 1)
         renderTodos();
     }
 }
